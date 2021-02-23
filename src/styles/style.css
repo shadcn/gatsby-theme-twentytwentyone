@@ -1,0 +1,17 @@
+.wp-block-gallery {
+  margin: 0 auto;
+}
+
+.blocks-gallery-grid {
+  width: 100%;
+}
+
+figure .inline-gatsby-image-wrapper {
+  display: block;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.post-thumbnail {
+  position: relative;
+}

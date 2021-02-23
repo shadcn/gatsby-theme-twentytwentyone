@@ -1,10 +1,18 @@
 require(`dotenv`).config()
 
 module.exports = {
-  siteMetadata: {
-    title: "Reflexjs",
-    description: "Starter for Reflexjs.",
-    siteUrl: process.env.SITE_URL || "http://localhost:8000",
-  },
-  plugins: [`gatsby-plugin-reflexjs`],
+  plugins: [
+    {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+        url:
+          process.env.WPGRAPHQL_URL ||
+          `https://wpgatsbydemo.wpengine.com/graphql`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-react-helmet`,
+  ],
 }

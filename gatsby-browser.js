@@ -1,1 +1,5 @@
-require("typeface-inter")
+import "@wordpress/block-library/build-style/common.css"
+import "@wordpress/block-library/build-style/style.css"
+import "@wordpress/block-library/build-style/theme.css"
+import "./src/styles/twentytwentyone.css"
+import "./src/styles/style.css"
