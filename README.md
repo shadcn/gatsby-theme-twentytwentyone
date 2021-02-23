@@ -1,5 +1,7 @@
 # gatsby-theme-twentytwentyone
 
+![Screenshot](https://i.imgur.com/E7TEEjD.jpg)
+
 This is the WordPress [Twenty Twenty-One](https://wordpress.org/themes/twentytwentyone/) theme built for Gatsby.
 
 This is a drop-in replacement for your Wordpress site with support for **Gutenberg blocks**, **menu** and **menu locations**, **customizable blog page** and more...
@@ -20,6 +22,6 @@ cd site
 
 ## Links
 
-- 🚀 Demo:
+- 🚀 Demo: https://2021.reflexjs.org
 - 👋 Twitter: https://twitter.com/arshadcn
 - 👉 Starting a new Gatsby site? Check out https://github.com/reflexjs/reflexjs
