@@ -25,3 +25,14 @@ cd site
 - 🚀 Demo: https://2021.reflexjs.org
 - 👋 Twitter: https://twitter.com/arshadcn
 - 👉 Starting a new Gatsby site? Check out https://github.com/reflexjs/reflexjs
+
+## Roadmap
+
+- [x] Customizer support
+- [x] WPGatsby `action_monitor` for `customize_save_after`
+- [ ] Paginated blog posts
+- [ ] Taxonomy pages
+- [ ] Author pages
+- [ ] Comments?
+- [ ] Package as a Gatsby theme
+- [ ] Release 1.0.0
