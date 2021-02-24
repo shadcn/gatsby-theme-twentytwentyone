@@ -6,5 +6,9 @@ export const fragment = graphql`
       title
       description
     }
+    customizerSettings {
+      backgroundColor
+      respectUserColorPreference
+    }
   }
 `

@@ -28,7 +28,7 @@ export function Layout({
     locations: ["FOOTER"],
   })
 
-  const { generalSettings } = useWpSettings()
+  const { generalSettings, customizerSettings } = useWpSettings()
   const { pathname } = useLocation()
 
   wrapperClassNames = [
@@ -36,7 +36,7 @@ export function Layout({
     "page-template-default",
     "wp-embed-responsive",
     "is-light-theme",
-    menuOpen && "primary-navigation-open lock-scrolling",
+    menuOpen ? "primary-navigation-open lock-scrolling" : null,
     ...wrapperClassNames,
   ]
 
@@ -48,6 +48,13 @@ export function Layout({
     <>
       <Helmet>
         <title>{pageTitle || generalSettings.title}</title>
+        <style>
+          {`
+          body {
+            background-color: #${customizerSettings.backgroundColor}
+          }
+        `}
+        </style>
       </Helmet>
       <div className={wrapperClassNames.join(" ")} {...props}>
         <div id="page" className="site">
