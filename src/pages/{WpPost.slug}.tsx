@@ -38,7 +38,7 @@ export default function Component({ data }: PostPageProps) {
       slug={post.slug}
       date={post.date}
       categories={post.categories?.nodes}
-      featuredImage={post.featuredImage.node}
+      featuredImage={post.featuredImage?.node}
     />
   )
 }
