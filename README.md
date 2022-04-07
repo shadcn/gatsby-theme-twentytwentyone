@@ -6,7 +6,7 @@ This is the WordPress [Twenty Twenty-One](https://wordpress.org/themes/twentytwe
 
 This is a drop-in replacement for your Wordpress site with support for **Gutenberg blocks**, **menu** and **menu locations**, **customizable blog page** and more...
 
-⚠️ Work in Progress. Check https://twitter.com/arshadcn for updates.
+⚠️ Work in Progress. Check https://twitter.com/shadcn for updates.
 
 ## Installation
 
@@ -23,7 +23,7 @@ cd site
 ## Links
 
 - 🚀 Demo: https://2021.reflexjs.org
-- 👋 Twitter: https://twitter.com/arshadcn
+- 👋 Twitter: https://twitter.com/shadcn
 - 👉 Starting a new Gatsby site? Check out https://github.com/reflexjs/reflexjs
 
 ## Roadmap
